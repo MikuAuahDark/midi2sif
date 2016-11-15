@@ -1,0 +1,9 @@
+libs/*
+obj/*
+bin/*
+sln/*
+src/*
+!sln/midi2sif.sln
+!sln/midi2sif.vcxproj
+!sln/midi2sif.vcxproj.filters
+!src/*.cpp

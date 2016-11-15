@@ -1,0 +1,31 @@
+#ifdef RC_INVOKED
+
+1 VERSIONINFO
+FILEVERSION		1,0,0,0
+PRODUCTVERSION	1,0,0,0
+FILEFLAGSMASK 0x17L
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "00000000"
+		BEGIN
+			VALUE "CompanyName", "Dark Energy Processor Corporation"
+			VALUE "FileDescription", "MIDI to SIF beatmap converter"
+			VALUE "FileVersion", "1.0.0.0"
+			VALUE "InternalName", "midi2sif"
+			VALUE "LegalCopyright", "Copyright © 2037 Dark Energy Processor Corporation"
+			VALUE "OriginalFilename", "midi2sif.exe"
+			VALUE "ProductName", "midi2sif"
+			VALUE "ProductVersion", "1.0.0.0"
+		END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x0, 0
+	END
+END
+
+#endif
